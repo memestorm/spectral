@@ -228,7 +228,6 @@ input, select, textarea {
 		letter-spacing: 0.225em;
 		line-height: 1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2488,7 +2487,6 @@ input, select, textarea {
 		padding: 0 2.75em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -2547,7 +2545,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #cc4125;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2877,8 +2875,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #cc4125;
-			color: #c8ece9;
+			color: #cc4125;
+			background-color: #c8ece9;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2910,7 +2908,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #000000;
 			}
 
 			.wrapper.style1 label {
@@ -3449,7 +3447,6 @@ input, select, textarea {
 					letter-spacing: 0.225em;
 					outline: 0;
 					text-decoration: none;
-					text-transform: uppercase;
 				}
 
 					@media screen and (max-width: 736px) {
@@ -3569,7 +3566,6 @@ input, select, textarea {
 						font-size: 0.8em;
 						letter-spacing: 0.225em;
 						padding: 0 1.5em;
-						text-transform: uppercase;
 					}
 
 						#header nav > ul > li > a.menuToggle {
@@ -3642,6 +3638,7 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		background-color: #cc4125;
 	}
 
 		#banner h2 {
@@ -3690,7 +3687,6 @@ input, select, textarea {
 
 		#banner p {
 			letter-spacing: 0.225em;
-			text-transform: uppercase;
 		}
 
 			#banner p a {
@@ -3723,7 +3719,6 @@ input, select, textarea {
 			padding-left: 0.225em;
 			position: absolute;
 			text-align: center;
-			text-transform: uppercase;
 			width: 16em;
 			z-index: 1;
 		}
@@ -3893,7 +3888,6 @@ input, select, textarea {
 		#main > header p {
 			color: inherit;
 			letter-spacing: 0.225em;
-			text-transform: uppercase;
 			top: 0;
 		}
 
@@ -3946,7 +3940,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
+		background-color: #cc4125;
 		text-align: center;
 	}
 
@@ -3968,7 +3962,6 @@ input, select, textarea {
 			letter-spacing: 0.225em;
 			list-style: none;
 			padding: 0;
-			text-transform: uppercase;
 		}
 
 			#footer .copyright li {
@@ -4036,7 +4029,7 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: #cc4125;
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -4055,5 +4048,5 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-color: #cc4125;
 	}
