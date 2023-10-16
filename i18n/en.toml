@@ -17,7 +17,7 @@ other = "Phone"
 other = "Address"
 
 [yourmessage]
-other = "Your Message"
+other = "Your message"
 
 [send]
 other = "send"

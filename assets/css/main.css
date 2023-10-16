@@ -2905,6 +2905,7 @@ input, select, textarea {
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
 				border-color: rgba(0, 0, 0, 0.125);
+				color: #000;
 			}
 
 			.wrapper.style1 header.major p {
@@ -3651,7 +3652,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 3.75em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
@@ -3670,7 +3671,7 @@ input, select, textarea {
 				background: #fff;
 				content: '';
 				display: block;
-				height: 2px;
+				height: 0px;
 				position: absolute;
 				width: 100%;
 			}
@@ -3940,7 +3941,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #cc4125;
+		background-color: #333;
 		text-align: center;
 	}
 
@@ -4029,7 +4030,7 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: #cc4125;
+		background-color: #333333;
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -4048,5 +4049,5 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #cc4125;
+		background-color: #333;
 	}
